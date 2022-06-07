@@ -1,5 +1,6 @@
 const express = require('express');
 const app = express();
+const port = process.env.PORT;
 //importando controller
 const diaria = require('./controllers/diaria-controller.js')
 //importando BD
