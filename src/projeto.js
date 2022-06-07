@@ -12,8 +12,8 @@ app.use(express.json())
 //chamando controller e passando o express
 diaria(app, bd)
 
+let = process.env.PORT || 3000;
 
-
-app.listen(process.env.PORT || 3000, ()=>{
+app.listen(port, ()=>{
     console.log("rodando na porta 3000")
 }) 
